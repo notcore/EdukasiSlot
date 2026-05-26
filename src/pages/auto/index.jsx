@@ -144,7 +144,7 @@ export default function App() {
       
       // A. JIKA MEMASUKI KONDISI SIKLUS TARGET NOMINAL BANDAR (500k / 1.7M + 155%)
       if (paksaJackpotDiamond) {
-        const sDiamond = masterSimbol[5]; 
+        const sDiamond = masterSimbol[4]; 
         slot1 = sDiamond; slot2 = sDiamond; slot3 = sDiamond;
         setGameMode('umpan');
       }
